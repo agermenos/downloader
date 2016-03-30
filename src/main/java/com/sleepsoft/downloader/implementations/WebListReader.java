@@ -14,6 +14,7 @@ public class WebListReader implements IListReader {
     public static final String BASE = "https://kat.cr/usearch/";
     public static final String MAGNET_ATTRIBUTE = "title";
     public static final String MAGNET_VALUE = "Torrent magnet link";
+    public static final String DOWNLOAD_FILE = "Download torrent file";
 
     public List<? extends Item> getList(String source) {
         return null;

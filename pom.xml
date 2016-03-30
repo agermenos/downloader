@@ -27,6 +27,13 @@
     </properties>
 
     <dependencies>
+        <!-- Torrent Downloader -->
+        <dependency>
+            <groupId>com.turn</groupId>
+            <artifactId>ttorrent-core</artifactId>
+            <version>1.5</version>
+        </dependency>
+
         <!-- JSoup (HTML Parser) -->
         <dependency>
             <groupId>org.jsoup</groupId>
